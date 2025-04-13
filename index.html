@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asegede Ayele - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="p1.jpg" alt="Logo" class="logo" id="logo">
+    
+        <h1>Asegede Ayele</h1>
+        <p><h1>Computer Science Graduate | Aspiring Web Developer</h1></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+s
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Asegede Ayele, a passionate Computer Science student on the verge of graduating from Admas University with my Bachelor of Science degree.<br> My journey into the world of technology began at a young age, fueled by a curiosity about how things work and a desire to create solutions that make life easier and more enjoyable.<br>
+            Throughout my academic career, I have developed a strong foundation in programming languages such as C#, Java, and C++, alongside hands-on experience in web development, data structures, and algorithms. I thrive on tackling complex problems and enjoy collaborating with others to bring innovative ideas to life. <br>
+            In addition to my technical skills, I believe in the importance of effective communication and teamwork. Whether working on group projects or participating in hackathons, I always strive to create an inclusive environment where everyone's ideas are valued.    <br><br>
+            Outside of academics, I love to explore the intersection of technology and creativity. I enjoy  game development, mobile application development, video editing, forex marketing, graphic design, or even hiking and photography. This balance keeps me inspired and helps me approach challenges with a fresh perspective.<br>
+            As I prepare to embark on the next chapter of my career, I am excited about the opportunities that lie ahead. I am eager to contribute my skills to meaningful projects and continue learning in a dynamic environment. Thank you for visiting my portfolio, and I look forward to connecting with you!
+
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card" onclick="openModal('project1')">
+                <h3>e-commerce website</h3>
+                <p> Making marketing system online and buying clothes </p>
+                
+                
+             
+            </div>
+            
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+         <div class="skill" data-skill="HTML" data-level="90%">
+             <div class="skill-name">HTML(90%)</div>
+             <div class="skill-bar">
+             <div class="skill-progress" style="width: 90%;"></div>
+             </div>
+             </div>
+             <div class="skill" data-skill="css" data-level="85%">
+             <div class="skill-name">CSS(85%)</div>
+             <div class="skill-bar">
+             <div class="skill-progress" style="width: 85%;"></div>
+             </div>
+             </div>
+             <div class="skill" data-skill="JS" data-level="82%">
+             <div class="skill-name">JavaScript(82%)</div>
+             <div class="skill-bar">
+             <div class="skill-progress" style="width: 82%;"></div>
+             </div>
+             </div>
+             <div class="skill" data-skill="PHP" data-level="68%">
+                <div class="skill-name">PHP(68%)</div>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 68%;"></div>
+                </div>
+                </div>
+                <div class="skill" data-skill="C++" data-level="88%">
+                    <div class="skill-name">C++(88)</div>
+                    <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%;"></div>
+                    </div>
+                    </div>
+                    <div class="skill" data-skill="C#" data-level="74%">
+                        <div class="skill-name">C#(74%)</div>
+                        <div class="skill-bar">
+                        <div class="skill-progress" style="width: 74%;"></div>
+                        </div>
+                        </div>
+             <div class="skill" data-skill="java" data-level="80%">
+             <div class="skill-name">Java(80%)</div>
+             <div class="skill-bar">
+             <div class="skill-progress" style="width: 80%;"></div>
+             </div>
+             </div>
+             </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media!</p>
+        <ul>
+            <li>Phone:- +251970948134</li>
+            <li>Email:- asegedayele0@gmail.com</li>
+            <li><a href="https://linkedin.com/in/Asegede Ayele" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/asegede" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <a id="modal-link" href="#" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Asegede. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
